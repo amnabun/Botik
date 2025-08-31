@@ -192,7 +192,7 @@ def edit_ticket_image(ticket_number: str, date_time_str: str, second_time_str: s
     )
     
     # Сохраняем результат
-    output_path = "/home/bbbbuunn/botik/Botik/edited_ticket.png"
+    output_path = "edited_ticket.png"
     base_image.save(output_path)
     
     return output_path
