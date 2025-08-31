@@ -1,2 +1,2 @@
 worker: python botik.py
-web: pythom -m http.server $PORT
+web: python -m http.server $PORT
